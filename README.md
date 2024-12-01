@@ -14,3 +14,7 @@ An action is an object with a type property.
 Reducer specify how the app's state changes in response to actions sent to store.
 Function that accepts state and action as arguments, and returns the next state of the application.
 reducer(previousState, action) => newState
+
+## Redux Store
+One store for the entire application.
+Holds application state.
