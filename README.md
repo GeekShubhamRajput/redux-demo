@@ -18,3 +18,9 @@ reducer(previousState, action) => newState
 ## Redux Store
 One store for the entire application.
 Holds application state.
+
+## Middleware
+Middleware is the suggested way to extend Redux with custom functionality.
+Provides a third-party extension point between dispatching an action, and the moment it reached the reducer.
+Use middleware for logging, crash reporting, performing asynchronous tasks etc.
+ 
