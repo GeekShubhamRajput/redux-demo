@@ -29,3 +29,10 @@ As soon as an action was dispatched, the state was immediately updated.
 
 ## Asynchronous Actions
 Asynchronous API calls to fetch the data from an end point and use that data in your application.
+
+## Axios
+Requests to an API end point.
+
+## Redux-Thunk
+Define async action creators.
+Middleware
