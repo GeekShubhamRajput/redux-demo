@@ -23,4 +23,9 @@ Holds application state.
 Middleware is the suggested way to extend Redux with custom functionality.
 Provides a third-party extension point between dispatching an action, and the moment it reached the reducer.
 Use middleware for logging, crash reporting, performing asynchronous tasks etc.
- 
+
+## Synchronous Actions
+As soon as an action was dispatched, the state was immediately updated.
+
+## Asynchronous Actions
+Asynchronous API calls to fetch the data from an end point and use that data in your application.
